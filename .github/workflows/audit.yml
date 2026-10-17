@@ -1,0 +1,18 @@
+name: Check meme source activity
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/python-runtime
+      - name: Check public activity without X credentials
+        run: .local/runtime/bin/python audit_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: meme-source-audit
+          path: docs/source-audit.json

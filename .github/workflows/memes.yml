@@ -1,0 +1,46 @@
+name: Meme scheduler
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: 'Publish at most ONE meme (off = preview)'
+        type: boolean
+        default: false
+      initialize:
+        description: 'Create isolated posting history (first run only)'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: meme-posting-history
+  cancel-in-progress: false
+jobs:
+  memes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/python-runtime
+      - name: Check video tools
+        run: ffmpeg -version > /dev/null
+      - name: Collect if due, then preview or post one meme
+        env:
+          TWEETKIT_COOKIE: ${{ secrets.TWEETKIT_COOKIE }}
+          TRENDING_DB: ${{ github.workspace }}/.local/actions/memes.db
+          LIVE: ${{ inputs.live }}
+          INITIALIZE: ${{ inputs.initialize }}
+        shell: bash
+        run: |
+          args=(--mode auto)
+          if [[ "$LIVE" == "true" ]]; then args+=(--live); fi
+          if [[ "$INITIALIZE" == "true" ]]; then args+=(--initialize); fi
+          .local/runtime/bin/python meme_worker.py "${args[@]}"
+      - name: Save result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: meme-result-${{ github.run_id }}-${{ github.run_attempt }}
+          path: posting-report.json
+          if-no-files-found: ignore
+          retention-days: 7

@@ -1,0 +1,2618 @@
+{
+  "checked_at_utc": "2026-10-17T14:11:16.246651+00:00",
+  "display_timezone": "Africa/Nairobi",
+  "note": "Counts are sample lower bounds. Telegram reactions and views are separate; humour quality is not manually reviewed.",
+  "sources": [
+    {
+      "platform": "telegram",
+      "name": "bestmemes",
+      "url": "https://t.me/bestmemes",
+      "title": "Memes",
+      "subscribers_label": "104K subscribers",
+      "sampled_posts_today": 2,
+      "latest_post": 1792242200.0,
+      "median_views_2_to_48h": 6880,
+      "median_reactions_2_to_48h": 161,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "bestmemes/25189",
+          "published": 1792155647.0,
+          "reactions": 161,
+          "views": 6880,
+          "caption": "@bestmemes 👀",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "bestmemes/25190",
+          "published": 1792162924.0,
+          "reactions": 145,
+          "views": 6540,
+          "caption": "@bestmemes 👀",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "bestmemes/25191",
+          "published": 1792173809.0,
+          "reactions": 226,
+          "views": 6400,
+          "caption": "@bestmemes 👀",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "bestmemes/25192",
+          "published": 1792235072.0,
+          "reactions": 86,
+          "views": 3140,
+          "caption": "@bestmemes 👀",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "bestmemes/25193",
+          "published": 1792242200.0,
+          "reactions": 34,
+          "views": 1730,
+          "caption": "@bestmemes 👀",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "meme",
+      "url": "https://t.me/meme",
+      "title": "Best Memes",
+      "subscribers_label": "1.17K subscribers",
+      "sampled_posts_today": 19,
+      "latest_post": 1792245737.0,
+      "median_views_2_to_48h": 248.5,
+      "median_reactions_2_to_48h": 0.0,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "meme/1070",
+          "published": 1792234033.0,
+          "reactions": 0,
+          "views": 164,
+          "caption": "Made by Max ⚡️ via @MemeFarm_bot • @Memee 👉 Join our Memer Community",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "meme/1071",
+          "published": 1792234948.0,
+          "reactions": 1,
+          "views": 153,
+          "caption": "Shared by 𓂀 𝕍𝕚𝕘𝕚𝕝 𓂀 via @MemeFarm_bot • @Memee",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "meme/1072",
+          "published": 1792238561.0,
+          "reactions": 1,
+          "views": 118,
+          "caption": "Shared by Mobolaji via @MemeFarm_bot • @Memee",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "meme/1073",
+          "published": 1792242155.0,
+          "reactions": 3,
+          "views": 75,
+          "caption": "Shared by Johnny via @MemeFarm_bot • @Memee",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "meme/1074",
+          "published": 1792245737.0,
+          "reactions": 0,
+          "views": 19,
+          "caption": "Shared by 𝙸𝚞𝚕𝚒𝚒𝚊 via @MemeFarm_bot • @Memee",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "memee",
+      "url": "https://t.me/memee",
+      "title": "Memee | Memes",
+      "subscribers_label": "111K subscribers",
+      "sampled_posts_today": 19,
+      "latest_post": 1792245600.0,
+      "median_views_2_to_48h": 1155.0,
+      "median_reactions_2_to_48h": 39.5,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "memee/30986",
+          "published": 1792233903.0,
+          "reactions": 15,
+          "views": 780,
+          "caption": "Made by Max ⚡️ via @MemeFarm_bot • @Memee 👉 Join our Memer Community",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "memee/30987",
+          "published": 1792234800.0,
+          "reactions": 37,
+          "views": 770,
+          "caption": "Shared by 𓂀 𝕍𝕚𝕘𝕚𝕝 𓂀 via @MemeFarm_bot • @Memee",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "memee/30988",
+          "published": 1792238402.0,
+          "reactions": 17,
+          "views": 614,
+          "caption": "Shared by Mobolaji via @MemeFarm_bot • @Memee",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "memee/30989",
+          "published": 1792242000.0,
+          "reactions": 21,
+          "views": 432,
+          "caption": "Shared by Johnny via @MemeFarm_bot • @Memee",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "memee/30990",
+          "published": 1792245600.0,
+          "reactions": 2,
+          "views": 148,
+          "caption": "Shared by 𝙸𝚞𝚕𝚒𝚒𝚊 via @MemeFarm_bot • @Memee",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "memes",
+      "url": "https://t.me/memes",
+      "title": "Memes ™ 🎄 2014",
+      "subscribers_label": "84.4K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1739311138.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "memes/10151",
+          "published": 1707694963.0,
+          "reactions": 0,
+          "views": 453000,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "memes/10152",
+          "published": 1708180593.0,
+          "reactions": 0,
+          "views": 525000,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "memes/10153",
+          "published": 1708180628.0,
+          "reactions": 0,
+          "views": 552000,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "memes/10154",
+          "published": 1737557450.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "The owner of this channel has been inactive for the last 11 months. If they remain inactive for the next 28 days, they may lose their account and admin rights in this channel. The contents of the chan",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "memes/10155",
+          "published": 1739311138.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "The owner of this channel has been inactive for the last 11 months. If they remain inactive for the next 7 days, they may lose their account and admin rights in this channel. The contents of the chann",
+          "video": false,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyvideos",
+      "url": "https://t.me/funnyvideos",
+      "title": "Funny Videos: Viral Hot Memes",
+      "subscribers_label": "104K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1792032361.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "funnyvideos/903",
+          "published": 1790990432.0,
+          "reactions": 257,
+          "views": 40000,
+          "caption": "If you laugh, you're going to hell 👉 t.me/FunnyVideos Crypto Casino & Sportsbook. @ThunderpickGameBot",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyvideos/904",
+          "published": 1791254708.0,
+          "reactions": 354,
+          "views": 35000,
+          "caption": "People who make wallpaper of themselves on their phone lock screen. 👉 t.me/FunnyVideos Crypto Casino & Sportsbook. @ThunderpickGameBot",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyvideos/908",
+          "published": 1791512283.0,
+          "reactions": 464,
+          "views": 27600,
+          "caption": "Omg this was very funny 😂 👉 t.me/FunnyVideos Crypto Casino & Sportsbook. @ThunderpickGameBot",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyvideos/910",
+          "published": 1791775068.0,
+          "reactions": 348,
+          "views": 18400,
+          "caption": "Come on, this is hilarious 😂 👉 t.me/FunnyVideos Crypto Casino & Sportsbook. @ThunderpickGameBot",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyvideos/911",
+          "published": 1792032361.0,
+          "reactions": 253,
+          "views": 9550,
+          "caption": "This could be us 🥰 👉 t.me/FunnyVideos Crypto Casino & Sportsbook. @ThunderpickGameBot",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funny_videos",
+      "url": "https://t.me/funny_videos",
+      "title": "Funny Videos",
+      "subscribers_label": "12.5K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1791146474.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "Funny_Videos/9409",
+          "published": 1789800008.0,
+          "reactions": 53,
+          "views": 2970,
+          "caption": "@Funny_Videos",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "Funny_Videos/9417",
+          "published": 1789933669.0,
+          "reactions": 47,
+          "views": 3080,
+          "caption": "@Funny_Videos",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "Funny_Videos/9425",
+          "published": 1791146474.0,
+          "reactions": 31,
+          "views": 1640,
+          "caption": "@Funny_Videos",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "epicfails",
+      "url": "https://t.me/epicfails",
+      "title": "Epic FAILs",
+      "subscribers_label": "2.46K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1771758547.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "epicfails/6382",
+          "published": 1771585745.0,
+          "reactions": 0,
+          "views": 1280,
+          "caption": "🤣 @EpicFails",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "epicfails/6383",
+          "published": 1771585745.0,
+          "reactions": 0,
+          "views": 1740,
+          "caption": "🤣 @EpicFails",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "epicfails/6384",
+          "published": 1771585745.0,
+          "reactions": 0,
+          "views": 1920,
+          "caption": "🤣 @EpicFails",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "epicfails/6385",
+          "published": 1771672146.0,
+          "reactions": 0,
+          "views": 2400,
+          "caption": "🤣 @EpicFails",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "epicfails/6386",
+          "published": 1771758547.0,
+          "reactions": 0,
+          "views": 2520,
+          "caption": "🤣 @EpicFails",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "comedy",
+      "url": "https://t.me/comedy",
+      "title": "Comedy Videos & Funny Memes",
+      "subscribers_label": "48.6K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1756544014.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "comedy/2888",
+          "published": 1729273983.0,
+          "reactions": 139,
+          "views": 98000,
+          "caption": "😬 😬 🎉 @Comedy",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "comedy/2889",
+          "published": 1729273983.0,
+          "reactions": 377,
+          "views": 108000,
+          "caption": "Haha so true 😂 🎉 @Comedy",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "comedy/2890",
+          "published": 1756479884.0,
+          "reactions": 37,
+          "views": 22700,
+          "caption": "Hold It In! 😂 @comedy",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "comedy/2891",
+          "published": 1756543700.0,
+          "reactions": 52,
+          "views": 23900,
+          "caption": "When someone walks next to u @comedy",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "comedy/2892",
+          "published": 1756544014.0,
+          "reactions": 100,
+          "views": 25000,
+          "caption": "If you need help, call to someone 😁",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "notmemes",
+      "url": "https://t.me/notmemes",
+      "title": "Not Memes",
+      "subscribers_label": "85.8K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1768843806.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "notmemes/17286",
+          "published": 1768836605.0,
+          "reactions": 18,
+          "views": 9950,
+          "caption": "Guest.",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "notmemes/17287",
+          "published": 1768838407.0,
+          "reactions": 10,
+          "views": 23600,
+          "caption": "Its beak isn’t really made for delicate work, but it’s got some impressive skills.",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "notmemes/17288",
+          "published": 1768840206.0,
+          "reactions": 41,
+          "views": 27400,
+          "caption": "He who feeds a hungry gopher feeds his own soul",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "notmemes/17289",
+          "published": 1768842004.0,
+          "reactions": 33,
+          "views": 41400,
+          "caption": "Signed Copy!",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "notmemes/17290",
+          "published": 1768843806.0,
+          "reactions": 73,
+          "views": 45900,
+          "caption": "Error in the system",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "videomemes",
+      "url": "https://t.me/videomemes",
+      "title": "videosos",
+      "subscribers_label": "19 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1643373924.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "videomemes/7",
+          "published": 1500135261.0,
+          "reactions": 0,
+          "views": 3790,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "videomemes/8",
+          "published": 1500135268.0,
+          "reactions": 0,
+          "views": 4890,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "videomemes/9",
+          "published": 1500135278.0,
+          "reactions": 0,
+          "views": 4980,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "videomemes/10",
+          "published": 1641839355.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "The account of the user that owns this channel has been inactive for the last 5 months. If it remains inactive in the next 28 days, that account will self-destruct and this channel may no longer have ",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "videomemes/11",
+          "published": 1643373924.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "The account of the user that owns this channel has been inactive for the last 5 months. If it remains inactive in the next 10 days, that account will self-destruct and this channel may no longer have ",
+          "video": false,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyshit",
+      "url": "https://t.me/funnyshit",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyvids",
+      "url": "https://t.me/funnyvids",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyanimals",
+      "url": "https://t.me/funnyanimals",
+      "title": "Funny Animals",
+      "subscribers_label": "13.8K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1792176970.0,
+      "median_views_2_to_48h": 1270,
+      "median_reactions_2_to_48h": 79,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "funnyanimals/3867",
+          "published": 1792001859.0,
+          "reactions": 125,
+          "views": 1960,
+          "caption": "😁 🐈 Join 👉 @FunnyAnimals 🐾",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyanimals/3868",
+          "published": 1792065855.0,
+          "reactions": 94,
+          "views": 1740,
+          "caption": "😁 🐕 Join 👉 @FunnyAnimals 🐾",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyanimals/3869",
+          "published": 1792089289.0,
+          "reactions": 103,
+          "views": 1600,
+          "caption": "😁 🐈 🐈 🐈 🥰 Join 👉 @FunnyAnimals 🐾",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyanimals/3870",
+          "published": 1792167782.0,
+          "reactions": 73,
+          "views": 1270,
+          "caption": "😁 🐕 Join 👉 @FunnyAnimals 🐾",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnyanimals/3871",
+          "published": 1792176970.0,
+          "reactions": 79,
+          "views": 1110,
+          "caption": "🤩 🦜 Join 👉 @FunnyAnimals 🐾",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "instantregret",
+      "url": "https://t.me/instantregret",
+      "title": "Мгновенное сожаление",
+      "subscribers_label": "4 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1760985416.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "instantregret/3949",
+          "published": 1760977351.0,
+          "reactions": 0,
+          "views": 9,
+          "caption": "['As long as he got his point across']",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "instantregret/3950",
+          "published": 1760979378.0,
+          "reactions": 0,
+          "views": 10,
+          "caption": "['Dicking around on a motorcycle']",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "instantregret/3951",
+          "published": 1760979926.0,
+          "reactions": 0,
+          "views": 10,
+          "caption": "['So edgy.']",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "instantregret/3952",
+          "published": 1760981562.0,
+          "reactions": 0,
+          "views": 14,
+          "caption": "[\"Guess who's getting a whooping.\"]",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "instantregret/3953",
+          "published": 1760985416.0,
+          "reactions": 0,
+          "views": 16,
+          "caption": "[\"You can't park there sir!\"]",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "unexpected",
+      "url": "https://t.me/unexpected",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "perfectlycutscreams",
+      "url": "https://t.me/perfectlycutscreams",
+      "title": "perfectlycutscreams",
+      "subscribers_label": "4 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1612134516.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "perfectlycutscreams/1",
+          "published": 1596229173.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "Channel created",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "perfectlycutscreams/2",
+          "published": 1596229289.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "Channel photo updated",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "perfectlycutscreams/3",
+          "published": 1596229296.0,
+          "reactions": 0,
+          "views": 179,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "perfectlycutscreams/4",
+          "published": 1612134516.0,
+          "reactions": 0,
+          "views": 143,
+          "caption": "",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyasf",
+      "url": "https://t.me/funnyasf",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "shitpost",
+      "url": "https://t.me/shitpost",
+      "title": "Shitpost",
+      "subscribers_label": "25.6K subscribers",
+      "sampled_posts_today": 7,
+      "latest_post": 1792243317.0,
+      "median_views_2_to_48h": 1450,
+      "median_reactions_2_to_48h": 36,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "shitpost/63177",
+          "published": 1792221492.0,
+          "reactions": 36,
+          "views": 1450,
+          "caption": "@shitpost",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "shitpost/63178",
+          "published": 1792225093.0,
+          "reactions": 33,
+          "views": 1310,
+          "caption": "@shitpost",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "shitpost/63179",
+          "published": 1792228695.0,
+          "reactions": 33,
+          "views": 1170,
+          "caption": "@shitpost",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "shitpost/63180",
+          "published": 1792237758.0,
+          "reactions": 21,
+          "views": 821,
+          "caption": "@shitpost",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "shitpost/63181",
+          "published": 1792243317.0,
+          "reactions": 16,
+          "views": 461,
+          "caption": "@shitpost",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "shitposting",
+      "url": "https://t.me/shitposting",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memestime",
+      "url": "https://t.me/memestime",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memetube",
+      "url": "https://t.me/memetube",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnymemesdaily",
+      "url": "https://t.me/funnymemesdaily",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "MemeHub",
+      "url": "https://t.me/MemeHub",
+      "title": "میم هاب اصلی | MemeHub | Meme Hub",
+      "subscribers_label": "585K subscribers",
+      "sampled_posts_today": 3,
+      "latest_post": 1792243409.0,
+      "median_views_2_to_48h": 3545.0,
+      "median_reactions_2_to_48h": 43.5,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "memehub/3276",
+          "published": 1792173094.0,
+          "reactions": 80,
+          "views": 3790,
+          "caption": "قیمت انواع آیفون 18 توی دیوار: گویا آیفون‌های دریایی کم کم دارن وارد بازار میشن. @MemeHub | میم هاب",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "memehub/3277",
+          "published": 1792176721.0,
+          "reactions": 43,
+          "views": 3470,
+          "caption": "#school ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ 🟠 @MemeHub | میم هاب 🟠",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "memehub/3278",
+          "published": 1792231384.0,
+          "reactions": 39,
+          "views": 1920,
+          "caption": "🔴 ایشون رو یادتونه که چند سال پیش با گفتن « چطوری جون دل، سر کیفی عزیز؟ » معروف شده بود. 💢 حالا برای خودش اعلام پیامبری کرده و یه قبیله راه انداخته به اسم \"SBF\" 💢 برای اینکه تو این قبیله عضو بشی باید ",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "memehub/3281",
+          "published": 1792236099.0,
+          "reactions": 31,
+          "views": 1250,
+          "caption": "#global ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ 🟠 @MemeHub | میم هاب 🟠",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "memehub/3282",
+          "published": 1792243409.0,
+          "reactions": 13,
+          "views": 467,
+          "caption": "#dark ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ 🟠 @MemeHub | میم هاب 🟠",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "DailyMemes",
+      "url": "https://t.me/DailyMemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "FunnyChannel",
+      "url": "https://t.me/FunnyChannel",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyclips",
+      "url": "https://t.me/funnyclips",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "Funnys",
+      "url": "https://t.me/Funnys",
+      "title": "Prank 😂 Funny Videos & GIFs",
+      "subscribers_label": "488K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1785227078.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "prank/6663",
+          "published": 1785222369.0,
+          "reactions": 12,
+          "views": 27900,
+          "caption": "When you realize summer school was never the plan but here we are! 📚 🎒 😆 @prank",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "prank/6664",
+          "published": 1785222500.0,
+          "reactions": 7,
+          "views": 40800,
+          "caption": "When the physics lesson in your head does not match reality! 💀 🔥 @prank",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "prank/6665",
+          "published": 1785222630.0,
+          "reactions": 16,
+          "views": 42800,
+          "caption": "Sometimes reality writes the best comedy! These moments are pure gold 😂 🔥 @prank",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "prank/6666",
+          "published": 1785227068.0,
+          "reactions": 19,
+          "views": 49200,
+          "caption": "Its fun to drive fast & show off on CCTV camera! 🤣 🚗 💫 This ended predictably @prank",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "prank/6667",
+          "published": 1785227078.0,
+          "reactions": 47,
+          "views": 52000,
+          "caption": "When you think youre a scientist with a spray bottle hack 😂 🧪 Chemistry was never this messy @prank",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnymeme",
+      "url": "https://t.me/funnymeme",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyfail",
+      "url": "https://t.me/funnyfail",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyvideoss",
+      "url": "https://t.me/funnyvideoss",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "Memes_Hub",
+      "url": "https://t.me/Memes_Hub",
+      "title": "Memes Hub ™",
+      "subscribers_label": "10 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1657624887.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "Memes_Hub/1",
+          "published": 1657624861.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "Channel created",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "Memes_Hub/3",
+          "published": 1657624887.0,
+          "reactions": 1,
+          "views": 1350,
+          "caption": "@Memes_hub",
+          "video": false,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "humor",
+      "url": "https://t.me/humor",
+      "title": "Humor",
+      "subscribers_label": "7.66K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1749189603.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "humor/906",
+          "published": 1714024805.0,
+          "reactions": 0,
+          "views": 55800,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "humor/907",
+          "published": 1714975209.0,
+          "reactions": 0,
+          "views": 61000,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "humor/908",
+          "published": 1715061604.0,
+          "reactions": 0,
+          "views": 70300,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "humor/909",
+          "published": 1716789606.0,
+          "reactions": 0,
+          "views": 75900,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "humor/910",
+          "published": 1749189603.0,
+          "reactions": 0,
+          "views": 26900,
+          "caption": "",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "humour",
+      "url": "https://t.me/humour",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "jokes",
+      "url": "https://t.me/jokes",
+      "title": "Crypto Jokes 😋 ₿",
+      "subscribers_label": "12.2K subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1792175008.0,
+      "median_views_2_to_48h": 253,
+      "median_reactions_2_to_48h": 7,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "Jokes/9397",
+          "published": 1790434512.0,
+          "reactions": 14,
+          "views": 1320,
+          "caption": "@Jokes 😁",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "Jokes/9398",
+          "published": 1790531794.0,
+          "reactions": 9,
+          "views": 1350,
+          "caption": "@Jokes B For Bill, B for Bitcoin 😁",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "Jokes/9399",
+          "published": 1791819975.0,
+          "reactions": 9,
+          "views": 546,
+          "caption": "@Jokes Bitcoiner's enemies list. 😁",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "Jokes/9400",
+          "published": 1791820192.0,
+          "reactions": 9,
+          "views": 614,
+          "caption": "@Jokes Wealth 🔮",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "Jokes/9401",
+          "published": 1792175008.0,
+          "reactions": 7,
+          "views": 253,
+          "caption": "@Jokes 😁",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "FunnyCats",
+      "url": "https://t.me/FunnyCats",
+      "title": "Funny cats",
+      "subscribers_label": "10 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1661949150.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "funnycats/20",
+          "published": 1512956623.0,
+          "reactions": 0,
+          "views": 591,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnycats/27",
+          "published": 1650460244.0,
+          "reactions": 0,
+          "views": 341,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "funnycats/29",
+          "published": 1652647608.0,
+          "reactions": 0,
+          "views": 360,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnycats/30",
+          "published": 1653770770.0,
+          "reactions": 0,
+          "views": 425,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnycats/31",
+          "published": 1661949150.0,
+          "reactions": 0,
+          "views": 426,
+          "caption": "",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnydogs",
+      "url": "https://t.me/funnydogs",
+      "title": "Wolf dogs, pets",
+      "subscribers_label": "437 subscribers",
+      "sampled_posts_today": 1,
+      "latest_post": 1792214853.0,
+      "median_views_2_to_48h": 28.5,
+      "median_reactions_2_to_48h": 5.0,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "funnydogs/1714",
+          "published": 1791879591.0,
+          "reactions": 6,
+          "views": 50,
+          "caption": "Зеркальные нейроны — это особые нервные клетки коры головного мозга, которые активируются и когда животное само выполняет действие, и когда оно наблюдает, как это действие делает кто‑то другой . Зерка",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnydogs/1715",
+          "published": 1791966143.0,
+          "reactions": 7,
+          "views": 48,
+          "caption": "Щенки любят играть друг с другом не просто ради веселья — в этом кроется серьёзная биологическая и поведенческая логика. В игре щенки учатся управлять своим телом: прыгать, тормозить, разворачиваться,",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnydogs/1716",
+          "published": 1792050375.0,
+          "reactions": 4,
+          "views": 46,
+          "caption": "Места отдыха тоже по рангу.:)). В природе у волков самые тёплые, тихие, защищённые углы (например, в логове или на привале) занимают вожаки и щенки:)))",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnydogs/1717",
+          "published": 1792132565.0,
+          "reactions": 4,
+          "views": 35,
+          "caption": "Рычание, оскал, пристальный взгляд могут быть частью агрессии, но сами по себе — это коммуникация. В волчьей и собачьей стае такие сигналы эволюционно снижают количество настоящих драк.",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "funnydogs/1718",
+          "published": 1792214853.0,
+          "reactions": 6,
+          "views": 22,
+          "caption": "Сегодня, суббота, 17 октября, занятия в группе, как всегда, в 13:00 🐕‍🦺 🐾",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "AnimalMemes",
+      "url": "https://t.me/AnimalMemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "animals",
+      "url": "https://t.me/animals",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "WholesomeMemes",
+      "url": "https://t.me/WholesomeMemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "MemeWorld",
+      "url": "https://t.me/MemeWorld",
+      "title": "Memes, Memes Everywhere!",
+      "subscribers_label": "21K subscribers",
+      "sampled_posts_today": 2,
+      "latest_post": 1792232248.0,
+      "median_views_2_to_48h": 1400,
+      "median_reactions_2_to_48h": 22,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "MemeWorld/29779",
+          "published": 1792150478.0,
+          "reactions": 15,
+          "views": 1250,
+          "caption": "@MemeWorld",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "MemeWorld/29780",
+          "published": 1792165921.0,
+          "reactions": 15,
+          "views": 1180,
+          "caption": "@MemeWorld",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "MemeWorld/29781",
+          "published": 1792169091.0,
+          "reactions": 22,
+          "views": 1220,
+          "caption": "@MemeWorld",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "MemeWorld/29782",
+          "published": 1792188639.0,
+          "reactions": 16,
+          "views": 1030,
+          "caption": "@MemeWorld",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "MemeWorld/29783",
+          "published": 1792232248.0,
+          "reactions": 13,
+          "views": 619,
+          "caption": "@MemeWorld",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "englishmemes",
+      "url": "https://t.me/englishmemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "redditmemes",
+      "url": "https://t.me/redditmemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "r_memes",
+      "url": "https://t.me/r_memes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memesreddit",
+      "url": "https://t.me/memesreddit",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnypictures",
+      "url": "https://t.me/funnypictures",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funny_pics",
+      "url": "https://t.me/funny_pics",
+      "title": "Funny Pics",
+      "subscribers_label": "1 subscriber",
+      "sampled_posts_today": 0,
+      "latest_post": 1668820150.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "funny_pics/1",
+          "published": 1668820150.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "Channel created",
+          "video": false,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyvideo",
+      "url": "https://t.me/funnyvideo",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnyvines",
+      "url": "https://t.me/funnyvines",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "vines",
+      "url": "https://t.me/vines",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "bestfunny",
+      "url": "https://t.me/bestfunny",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "laugh",
+      "url": "https://t.me/laugh",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "laughing",
+      "url": "https://t.me/laughing",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "lol",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "telegram",
+      "name": "lolmemes",
+      "url": "https://t.me/lolmemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memesonly",
+      "url": "https://t.me/memesonly",
+      "title": "memes))0)",
+      "subscribers_label": "14 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1689859936.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "memesonly/247",
+          "published": 1666606601.0,
+          "reactions": 0,
+          "views": 261,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "memesonly/248",
+          "published": 1666606693.0,
+          "reactions": 0,
+          "views": 271,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "memesonly/249",
+          "published": 1688252610.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "The owner of this channel has been inactive for the last 5 months. If they remain inactive for the next 28 days, they may lose their account and admin rights in this channel. The contents of the chann",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "memesonly/250",
+          "published": 1689102212.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "The owner of this channel has been inactive for the last 5 months. If they remain inactive for the next 18 days, they may lose their account and admin rights in this channel. The contents of the chann",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "memesonly/251",
+          "published": 1689859936.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "The owner of this channel has been inactive for the last 5 months. If they remain inactive for the next 9 days, they may lose their account and admin rights in this channel. The contents of the channe",
+          "video": false,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "memesfunny",
+      "url": "https://t.me/memesfunny",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memes_english",
+      "url": "https://t.me/memes_english",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memesenglish",
+      "url": "https://t.me/memesenglish",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "reddit",
+      "name": "funny",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "memes",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "Unexpected",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "therewasanattempt",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "AnimalsBeingDerps",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "ContagiousLaughter",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "PerfectlyCutScreams",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "WatchPeopleDieInside",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "instant_regret",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "reddit",
+      "name": "funnyvideos",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "telegram",
+      "name": "memes_on_telegram",
+      "url": "https://t.me/memes_on_telegram",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memesontelegram",
+      "url": "https://t.me/memesontelegram",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "EnglishMemes",
+      "url": "https://t.me/EnglishMemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "classical_art_memes",
+      "url": "https://t.me/classical_art_memes",
+      "title": "کُمِدی کلاسیک",
+      "subscribers_label": "22 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1512071688.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "Classical_Art_Memes/32",
+          "published": 1511889779.0,
+          "reactions": 0,
+          "views": 2370,
+          "caption": "من وقتی میخوام با مشکلاتم روبرو شم 😑 @Classical_Art_Memes",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "Classical_Art_Memes/33",
+          "published": 1511890692.0,
+          "reactions": 0,
+          "views": 2480,
+          "caption": "مجید گیتس 😎 @Classical_Art_Memes",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "Classical_Art_Memes/34",
+          "published": 1511891322.0,
+          "reactions": 0,
+          "views": 2800,
+          "caption": "میگم پوتینو قبلا یه جایی دیدم 😄 @Classical_Art_Memes",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "Classical_Art_Memes/35",
+          "published": 1512070686.0,
+          "reactions": 0,
+          "views": 2760,
+          "caption": "🙏 👋 👋 👋 😂 😂 😂 @Classical_Art_Memes",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "Classical_Art_Memes/36",
+          "published": 1512071688.0,
+          "reactions": 0,
+          "views": 2840,
+          "caption": "مایکل جردن قرون وسطی 😃 @Classical_Art_Memes",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "CursedMemes",
+      "url": "https://t.me/CursedMemes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "cursedimages",
+      "url": "https://t.me/cursedimages",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "dadjokes",
+      "url": "https://t.me/dadjokes",
+      "title": "DadJokes",
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": 1655760528.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "dadjokes/1",
+          "published": 1655760528.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "Channel created",
+          "video": false,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funny_memes",
+      "url": "https://t.me/funny_memes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "dank",
+      "url": "https://t.me/dank",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memesallday",
+      "url": "https://t.me/memesallday",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "redditFunny",
+      "url": "https://t.me/redditFunny",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "memedealer",
+      "url": "https://t.me/memedealer",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "thedankestmemes",
+      "url": "https://t.me/thedankestmemes",
+      "title": "Dankest Memes // Данкест Мемс",
+      "subscribers_label": "46.3K subscribers",
+      "sampled_posts_today": 6,
+      "latest_post": 1792233923.0,
+      "median_views_2_to_48h": 7190.0,
+      "median_reactions_2_to_48h": 150.0,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "thedankestmemes/67559",
+          "published": 1792207969.0,
+          "reactions": 155,
+          "views": 6280,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "thedankestmemes/67560",
+          "published": 1792230595.0,
+          "reactions": 30,
+          "views": 4370,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "thedankestmemes/67561",
+          "published": 1792231271.0,
+          "reactions": 194,
+          "views": 4720,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "thedankestmemes/67562",
+          "published": 1792232680.0,
+          "reactions": 75,
+          "views": 4240,
+          "caption": "",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "thedankestmemes/67563",
+          "published": 1792233923.0,
+          "reactions": 69,
+          "views": 3700,
+          "caption": "",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "memes_library",
+      "url": "https://t.me/memes_library",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "getmemed",
+      "url": "https://t.me/getmemed",
+      "title": "Getmemed",
+      "subscribers_label": "1 subscriber",
+      "sampled_posts_today": 0,
+      "latest_post": 1732308160.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "Getmemed/1",
+          "published": 1732307769.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "Channel created",
+          "video": false,
+          "image": false
+        },
+        {
+          "source_post": "Getmemed/2",
+          "published": 1732308160.0,
+          "reactions": 0,
+          "views": null,
+          "caption": "Channel name was changed to « Getmemed »",
+          "video": false,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "ThisIsFunny",
+      "url": "https://t.me/ThisIsFunny",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "TodayILaughed",
+      "url": "https://t.me/TodayILaughed",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "haha",
+      "url": "https://t.me/haha",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "fucking_funny",
+      "url": "https://t.me/fucking_funny",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "mem",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "telegram",
+      "name": "MemesGifs",
+      "url": "https://t.me/MemesGifs",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "somememes",
+      "url": "https://t.me/somememes",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "MemesLibrary",
+      "url": "https://t.me/MemesLibrary",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "MemesHQ",
+      "url": "https://t.me/MemesHQ",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnymoments",
+      "url": "https://t.me/funnymoments",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "shitposts",
+      "url": "https://t.me/shitposts",
+      "title": "shitposts",
+      "subscribers_label": "1.35K subscribers",
+      "sampled_posts_today": 10,
+      "latest_post": 1792238602.0,
+      "median_views_2_to_48h": 63.0,
+      "median_reactions_2_to_48h": 0.0,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "shitposts/109918",
+          "published": 1792224224.0,
+          "reactions": 0,
+          "views": 41,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "shitposts/109919",
+          "published": 1792231399.0,
+          "reactions": 0,
+          "views": 35,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "shitposts/109920",
+          "published": 1792235013.0,
+          "reactions": 0,
+          "views": 28,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "shitposts/109921",
+          "published": 1792238601.0,
+          "reactions": 0,
+          "views": 26,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "shitposts/109922",
+          "published": 1792238602.0,
+          "reactions": 0,
+          "views": 26,
+          "caption": "",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "funnycatsvideos",
+      "url": "https://t.me/funnycatsvideos",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "catmemes",
+      "url": "https://t.me/catmemes",
+      "title": "Мемы про кiтов",
+      "subscribers_label": "8 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1643645039.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "catmemes/449",
+          "published": 1637713212.0,
+          "reactions": 0,
+          "views": 241,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "catmemes/450",
+          "published": 1638002356.0,
+          "reactions": 0,
+          "views": 270,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "catmemes/451",
+          "published": 1642354769.0,
+          "reactions": 0,
+          "views": 313,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "catmemes/452",
+          "published": 1643643771.0,
+          "reactions": 0,
+          "views": 345,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "catmemes/453",
+          "published": 1643645039.0,
+          "reactions": 0,
+          "views": 358,
+          "caption": "",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "dank_memes",
+      "url": "https://t.me/dank_memes",
+      "title": "memes",
+      "subscribers_label": "83 subscribers",
+      "sampled_posts_today": 0,
+      "latest_post": 1753467647.0,
+      "median_views_2_to_48h": null,
+      "median_reactions_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [
+        {
+          "source_post": "dank_memes/154",
+          "published": 1588034790.0,
+          "reactions": 0,
+          "views": 4490,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "dank_memes/164",
+          "published": 1588034807.0,
+          "reactions": 0,
+          "views": 5730,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "dank_memes/173",
+          "published": 1753068716.0,
+          "reactions": 0,
+          "views": 255,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "dank_memes/174",
+          "published": 1753467647.0,
+          "reactions": 0,
+          "views": 260,
+          "caption": "",
+          "video": false,
+          "image": true
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "MemesChannel",
+      "url": "https://t.me/MemesChannel",
+      "title": null,
+      "subscribers_label": null,
+      "sampled_posts_today": 0,
+      "latest_post": null,
+      "median_views_2_to_48h": null,
+      "interaction_verified": false,
+      "samples": [],
+      "status": "no public channel preview"
+    },
+    {
+      "platform": "telegram",
+      "name": "MDK",
+      "status": "unverified",
+      "error": "URLError"
+    },
+    {
+      "platform": "telegram",
+      "name": "lepragram",
+      "url": "https://t.me/lepragram",
+      "title": "Лепра",
+      "subscribers_label": "342K subscribers",
+      "sampled_posts_today": 8,
+      "latest_post": 1792245625.0,
+      "median_views_2_to_48h": 42350.0,
+      "median_reactions_2_to_48h": 537.0,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "Lepragram/62529",
+          "published": 1792231211.0,
+          "reactions": 106,
+          "views": 25800,
+          "caption": "Вышел хоррор-сериал по «Пятнице 13»: «Хрустальное озеро» рассказывает о детстве Джейсона и безумие его матери По сюжету после трагедии с сыном женщина возвращается в проклятый лагерь «Хрустальное озер",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "Lepragram/62530",
+          "published": 1792234811.0,
+          "reactions": 522,
+          "views": 23300,
+          "caption": "Парень показал, как он закупился продуктами на ¥168 (~2 100 рублей) в Китае В корзину вошли несколько килограмм фруктов и овощей, пачки чипсов, пельмени, 60 яиц, куриная грудка и куча другого. А тепер",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "Lepragram/62531",
+          "published": 1792237440.0,
+          "reactions": 449,
+          "views": 20500,
+          "caption": "Встретились как-то два философа поторговаться за айфон До конца, до слёз... 🙈 Подписаться на Лепру 🙈",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "Lepragram/62532",
+          "published": 1792241046.0,
+          "reactions": 377,
+          "views": 15500,
+          "caption": "Невеста подарила жениху RTX 5090 на свадьбу — парень не смог сдержать слёз В Китае завирусилось видео, на котором девушка вручает своему новоиспечённому мужу флагманскую видеокарту ASUS ROG. Для местн",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "Lepragram/62533",
+          "published": 1792245625.0,
+          "reactions": 69,
+          "views": 4059,
+          "caption": "Так звучат 99% машин для рыбалки, туризма и охоты, как только съезжают с асфальта 🙂",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    },
+    {
+      "platform": "telegram",
+      "name": "yaplakal",
+      "url": "https://t.me/yaplakal",
+      "title": "Yaplakal.com",
+      "subscribers_label": "421K subscribers",
+      "sampled_posts_today": 7,
+      "latest_post": 1792244461.0,
+      "median_views_2_to_48h": 43450.0,
+      "median_reactions_2_to_48h": 859.0,
+      "interaction_verified": true,
+      "samples": [
+        {
+          "source_post": "yaplakal/65067",
+          "published": 1792222861.0,
+          "reactions": 1245,
+          "views": 29700,
+          "caption": "А как проходят ваши выходные?",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "yaplakal/65068",
+          "published": 1792228141.0,
+          "reactions": 784,
+          "views": 26600,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "yaplakal/65069",
+          "published": 1792233615.0,
+          "reactions": 566,
+          "views": 21700,
+          "caption": "Фука! 😂",
+          "video": true,
+          "image": false
+        },
+        {
+          "source_post": "yaplakal/65070",
+          "published": 1792239011.0,
+          "reactions": 230,
+          "views": 15500,
+          "caption": "",
+          "video": false,
+          "image": true
+        },
+        {
+          "source_post": "yaplakal/65071",
+          "published": 1792244461.0,
+          "reactions": 302,
+          "views": 7240,
+          "caption": "Всё-таки поймал 😆",
+          "video": true,
+          "image": false
+        }
+      ],
+      "status": "public preview verified"
+    }
+  ]
+}
