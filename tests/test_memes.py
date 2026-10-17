@@ -58,6 +58,15 @@ class MemeTests(unittest.TestCase):
             result=meme_worker.publish(Mock(),self.cfg,True)
             self.assertEqual(result['publishing'],'posted')
         self.assertEqual(send.call_count,2)
+    def test_live_trigger_posts_after_more_than_72_recent_attempts(self):
+        meme_worker.ingest([self.item()],self.cfg)
+        with meme_worker.database() as c:
+            c.executemany('INSERT INTO publications VALUES(?,?,?,?)',
+                          [(f'previous-{n}',app.now(),'posted',str(1000+n)) for n in range(73)])
+        with patch('automation.authorization'),patch('meme_worker.download',return_value=self.asset),patch('automation.send',return_value='123') as send:
+            result=meme_worker.publish(Mock(),self.cfg,True)
+        self.assertEqual(result['publishing'],'posted')
+        send.assert_called_once()
     def test_identical_media_from_different_sources_cannot_post_twice(self):
         meme_worker.ingest([self.item(),self.item(2,source='reddit:chosen')],self.cfg)
         with patch('automation.authorization'),patch('meme_worker.download',return_value=self.asset),patch('automation.send',return_value='123') as send:

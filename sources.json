@@ -12,6 +12,5 @@
   "source_max_age_hours": 48,
   "queue_max_age_hours": 48,
   "reddit_min_score": 50,
-  "reddit_min_upvote_ratio": 0.75,
-  "daily_limit": 72
+  "reddit_min_upvote_ratio": 0.75
 }

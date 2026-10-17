@@ -80,8 +80,6 @@ def publish(state,cfg,live=False):
     with database() as c:
         if c.execute('SELECT 1 FROM publications WHERE state="uncertain"').fetchone():
             return {'ok':False,'publishing':'paused: prior posting outcome uncertain'}
-        if c.execute('SELECT COUNT(*) FROM publications WHERE attempted>?',(app.now()-86400,)).fetchone()[0]>=cfg['daily_limit']:
-            return {'publishing':'daily limit reached'}
         previous=c.execute('SELECT s.source FROM publications p JOIN stories s ON s.id=p.story_id WHERE p.state="posted" ORDER BY p.attempted DESC LIMIT 1').fetchone()
         rows=[dict(r) for r in c.execute('''SELECT s.*,q.kind,q.media_url,q.dash_url FROM stories s
             JOIN meme_queue q ON q.story_id=s.id LEFT JOIN publications p ON p.story_id=s.id
