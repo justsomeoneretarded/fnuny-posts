@@ -1,4 +1,4 @@
-"""Short meme scheduler: collect every two hours, send at most once per 20 minutes."""
+"""Short meme scheduler: collect every two hours, send at most once per live trigger."""
 import argparse
 import hashlib
 import json
@@ -80,9 +80,6 @@ def publish(state,cfg,live=False):
     with database() as c:
         if c.execute('SELECT 1 FROM publications WHERE state="uncertain"').fetchone():
             return {'ok':False,'publishing':'paused: prior posting outcome uncertain'}
-        last=c.execute('SELECT MAX(attempted) FROM publications').fetchone()[0]
-        if last is not None and app.now()-last<cfg['posting_seconds']:
-            return {'publishing':'not due; exiting without sleeping'}
         if c.execute('SELECT COUNT(*) FROM publications WHERE attempted>?',(app.now()-86400,)).fetchone()[0]>=cfg['daily_limit']:
             return {'publishing':'daily limit reached'}
         previous=c.execute('SELECT s.source FROM publications p JOIN stories s ON s.id=p.story_id WHERE p.state="posted" ORDER BY p.attempted DESC LIMIT 1').fetchone()

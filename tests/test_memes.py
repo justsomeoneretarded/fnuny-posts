@@ -50,12 +50,14 @@ class MemeTests(unittest.TestCase):
             self.assertFalse(meme_worker.publish(Mock(),self.cfg,True)['ok'])
             self.assertFalse(meme_worker.publish(Mock(),self.cfg,True)['ok'])
         self.assertEqual(send.call_count,1)
-    def test_twenty_minute_gap_is_enforced(self):
+    def test_each_live_trigger_can_post_without_a_minimum_gap(self):
         meme_worker.ingest([self.item(),self.item(2)],self.cfg)
         with patch('automation.authorization'),patch('meme_worker.download',return_value=self.asset),patch('automation.send',return_value='123') as send:
             meme_worker.publish(Mock(),self.cfg,True)
-            self.assertIn('not due',meme_worker.publish(Mock(),self.cfg,True)['publishing'])
-        self.assertEqual(send.call_count,1)
+            self.asset.write_bytes(b'\xff\xd8\xffdifferent meme')
+            result=meme_worker.publish(Mock(),self.cfg,True)
+            self.assertEqual(result['publishing'],'posted')
+        self.assertEqual(send.call_count,2)
     def test_identical_media_from_different_sources_cannot_post_twice(self):
         meme_worker.ingest([self.item(),self.item(2,source='reddit:chosen')],self.cfg)
         with patch('automation.authorization'),patch('meme_worker.download',return_value=self.asset),patch('automation.send',return_value='123') as send:

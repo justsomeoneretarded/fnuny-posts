@@ -10,7 +10,7 @@ Read [the source shortlist and measured activity](docs/SOURCES.md), backed by [t
 
 ## How it works
 
-- One external trigger every **20 minutes**, with at most **72 attempts in a rolling 24 hours**. Runner delays and unavailable media may reduce actual posts.
+- One external trigger every **20 minutes**, with at most **72 attempts in a rolling 24 hours**. Each live trigger can post one eligible queued item, even if the previous post was less than 20 minutes ago; the external scheduler controls timing. Unavailable media, an empty queue, uncertain outcomes and the daily limit can prevent a post.
 - Collect on the first run, then approximately every two hours; other runs only pick one queued item, fetch media and publish. Each job exits; nothing sleeps between triggers.
 - Telegram photos and downloadable videos work even without a caption. Reddit-hosted images/videos are supported; Reddit DASH audio is merged with the video using FFmpeg when available. External video platforms, albums and protected/unsupported media are skipped.
 - Captions remain short, with source-footer text removed. No username lookups, invented jokes or language-model subscription.
