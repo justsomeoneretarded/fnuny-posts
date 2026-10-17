@@ -2,11 +2,11 @@
 
 A separate meme, funny-video and fails queue, adapted from the existing news poster's durable Git history and TweetKit media uploader. It has no news sources, identity discovery, username replacement, news ranking, or automatic reply likes. No cookie, database or posting history was copied from the news repository.
 
-**Current status:** source choices and the new X account connection are pending. `sources.json` deliberately has empty source lists, and no automatic schedule is enabled. Code tests do not establish live X posting or unrestricted Reddit access.
+**Current status:** the initial Telegram sources are `bestmemes`, `memee`, `shitpost`, `MemeWorld` and `funnyanimals`, selected from the 17 October 2026 activity audit. Reddit remains disabled because its audit requests failed. The new X account connection is pending, and no automatic schedule is enabled. Code tests do not establish live X posting or unrestricted Reddit access.
 
 ## Choose sources first
 
-Read [the source shortlist and measured activity](docs/SOURCES.md), backed by [the timestamped public-source audit](docs/source-audit.json). Select five Telegram channels and five subreddits; add their bare names to the `telegram` and `reddit` lists in `sources.json`. The **Check meme source activity** Actions workflow can repeat the survey from GitHub without account credentials. Errors are reported explicitly. Activity and reactions do not establish that a post is funny or that you have permission to republish it.
+Read [the source shortlist and measured activity](docs/SOURCES.md), backed by [the timestamped public-source audit](docs/source-audit.json). The initial five Telegram channels are configured in `sources.json`; review them after the first day of collection. Add or remove bare channel names as needed. Leave `reddit` empty until access and activity are verified. The **Check meme source activity** Actions workflow can repeat the survey from GitHub without account credentials. Errors are reported explicitly. Activity and reactions do not establish that a post is funny or that you have permission to republish it.
 
 ## How it works
 

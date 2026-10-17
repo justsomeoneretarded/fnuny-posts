@@ -1,5 +1,11 @@
 {
-  "telegram": [],
+  "telegram": [
+    "bestmemes",
+    "memee",
+    "shitpost",
+    "MemeWorld",
+    "funnyanimals"
+  ],
   "reddit": [],
   "collection_seconds": 7200,
   "posting_seconds": 1200,

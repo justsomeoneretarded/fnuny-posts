@@ -74,7 +74,8 @@ class MemeTests(unittest.TestCase):
             meme_worker.run(Mock(),live=False)
         collect.assert_not_called();sleep.assert_not_called()
     def test_empty_source_config_is_inactive(self):
-        with patch('collectors.collect') as collect,patch('automation.send') as send:
+        cfg=self.cfg|{'telegram':[],'reddit':[]}
+        with patch('collectors.config',return_value=cfg),patch('collectors.collect') as collect,patch('automation.send') as send:
             result=meme_worker.run(Mock(),live=True)
         self.assertIn('not configured',result['publishing']);collect.assert_not_called();send.assert_not_called()
     def test_expired_queue_cleanup_keeps_url_history(self):
