@@ -3,6 +3,15 @@ description: Restore pinned installed dependencies instead of reinstalling every
 runs:
   using: composite
   steps:
+    - name: Ensure video tools are installed
+      shell: bash
+      run: |
+        if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg
+        fi
+        ffmpeg -version >/dev/null
+        ffprobe -version >/dev/null
     - uses: actions/setup-python@v5
       id: python
       with:
