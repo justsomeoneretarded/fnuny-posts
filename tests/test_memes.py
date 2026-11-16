@@ -11,6 +11,9 @@ from actions_runner import GitState,StateError
 
 class MemeTests(unittest.TestCase):
     def setUp(self):
+        # Safety tests run with the quality bar off; virality tests cover the bar.
+        bar=patch.object(meme_worker,'MIN_SCORE',-1000.0);bar.start();self.addCleanup(bar.stop)
+        keys=patch.dict('os.environ',{'GEMINI_API_KEY':'','GROQ_API_KEY':''});keys.start();self.addCleanup(keys.stop)
         self.tmp=tempfile.TemporaryDirectory();self.old=app.DB
         app.DB=Path(self.tmp.name)/'memes.db'
         self.cfg=collectors.config();meme_worker.database().close()

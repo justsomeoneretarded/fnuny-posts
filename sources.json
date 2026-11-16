@@ -4,10 +4,11 @@
     "memee",
     "shitpost",
     "MemeWorld",
-    "funnyanimals"
+    "funnyanimals",
+    "thedankestmemes"
   ],
   "reddit": [],
-  "collection_seconds": 7200,
+  "collection_seconds": 1200,
   "posting_seconds": 1200,
   "source_max_age_hours": 48,
   "queue_max_age_hours": 48,

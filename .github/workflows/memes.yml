@@ -10,6 +10,10 @@ on:
         description: 'Create isolated posting history (first run only)'
         type: boolean
         default: false
+      check_ai:
+        description: 'Only test the AI keys/models (no collection, no posting)'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -27,11 +31,19 @@ jobs:
       - name: Collect if due, then preview or post one meme
         env:
           TWEETKIT_COOKIE: ${{ secrets.TWEETKIT_COOKIE }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash' }}
+          AI_PROVIDER_ORDER: ${{ vars.AI_PROVIDER_ORDER || 'gemini,groq' }}
+          MIN_SCORE: ${{ vars.MIN_SCORE || '70' }}
+          DAILY_LIMIT: ${{ vars.DAILY_LIMIT || '0' }}
           TRENDING_DB: ${{ github.workspace }}/.local/actions/memes.db
           LIVE: ${{ inputs.live }}
           INITIALIZE: ${{ inputs.initialize }}
+          CHECK_AI: ${{ inputs.check_ai }}
         shell: bash
         run: |
+          if [[ "$CHECK_AI" == "true" ]]; then exec .local/runtime/bin/python meme_worker.py --mode check-ai; fi
           args=(--mode auto)
           if [[ "$LIVE" == "true" ]]; then args+=(--live); fi
           if [[ "$INITIALIZE" == "true" ]]; then args+=(--initialize); fi
