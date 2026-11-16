@@ -121,6 +121,28 @@ class PublishTests(Case):
                 meme_worker.judge_top(self.cfg)
             again.assert_called_once()
 
+    def test_stale_uncertain_attempt_is_set_aside_and_posting_resumes(self):
+        meme_worker.ingest([self.item(1), self.item(2, views=5000, reactions=200)], self.cfg)
+        stuck = meme_worker.candidates(self.cfg)[0]['id']
+        with meme_worker.database() as c:
+            c.execute('INSERT INTO publications VALUES(?,?,?,NULL)', (stuck, app.now()-600, 'uncertain'))
+        with patch.object(meme_worker, 'MIN_SCORE', -1000.0), patch('automation.authorization'), \
+                patch('meme_worker.download', return_value=self.asset), patch('automation.send', return_value='88') as send:
+            result = meme_worker.publish(Mock(), self.cfg, True)
+        self.assertEqual(result['publishing'], 'posted')
+        self.assertEqual(result['quarantined_uncertain'], [stuck])
+        with meme_worker.database() as c:
+            self.assertEqual(c.execute('SELECT state FROM publications WHERE story_id=?', (stuck,)).fetchone()[0], 'quarantined_uncertain')
+        send.assert_called_once()
+
+    def test_recent_uncertain_attempt_still_pauses(self):
+        meme_worker.ingest([self.item(1)], self.cfg)
+        with meme_worker.database() as c:
+            c.execute('INSERT INTO publications VALUES(?,?,?,NULL)', ('x', app.now()-30, 'uncertain'))
+        with patch('automation.send') as send:
+            self.assertIn('paused', meme_worker.publish(Mock(), self.cfg, True)['publishing'])
+        send.assert_not_called()
+
     def test_optional_daily_limit(self):
         with meme_worker.database() as c:
             c.execute('INSERT INTO publications VALUES(?,?,?,?)', ('x', app.now()-60, 'posted', '1'))

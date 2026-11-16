@@ -155,7 +155,20 @@ def judge_top(cfg):
         if any(working.values()):save_setting('ai_models',dict(working,saved=app.now()))
     return report
 
+def quarantine_stale_attempts(state):
+    """An attempt whose outcome never got confirmed blocks nothing forever: after two
+    minutes it is set aside permanently (never retried, its media hash stays used)."""
+    with database() as c:
+        stale=[r[0] for r in c.execute('SELECT story_id FROM publications WHERE state="uncertain" AND attempted<=?',(app.now()-120,))]
+        for identity in stale:
+            c.execute('UPDATE publications SET state="quarantined_uncertain" WHERE story_id=? AND state="uncertain"',(identity,))
+            c.execute('DELETE FROM meme_queue WHERE story_id=?',(identity,))
+            c.execute('UPDATE stories SET status="quarantined" WHERE id=?',(identity,))
+    if stale:state.checkpoint()
+    return stale
+
 def publish(state,cfg,live=False):
+    quarantined=quarantine_stale_attempts(state) if live else []
     with database() as c:
         if c.execute('SELECT 1 FROM publications WHERE state="uncertain"').fetchone():
             return {'ok':False,'publishing':'paused: prior posting outcome uncertain'}
@@ -199,7 +212,7 @@ def publish(state,cfg,live=False):
             c.execute('UPDATE stories SET status="posted" WHERE id=?',(row['id'],))
             c.execute('INSERT OR REPLACE INTO post_meta VALUES(?,?,?,?,?,?,?)',(row['id'],post_id,row['source'],row['kind'],row['text'],row['total'],app.now()))
         state.checkpoint()
-    return {'publishing':'posted','post_id':post_id,'kind':row['kind'],'caption':row['text'],'source_url':row['url'],'queue_payload_removed':True,**summary}
+    return {'publishing':'posted','post_id':post_id,'kind':row['kind'],'caption':row['text'],'source_url':row['url'],'queue_payload_removed':True,'quarantined_uncertain':quarantined,**summary}
 
 def track_and_learn(limit=10,budget=30):
     """Hourly: read our recent posts' public metrics and update channel/kind weights."""

@@ -20,7 +20,7 @@ Read [the source shortlist and measured activity](docs/SOURCES.md), backed by [t
 - Source URLs prevent repeated collection; exact downloaded-media SHA-256 fingerprints stop identical files from being posted twice across sources. Edited, cropped or re-encoded duplicates are not reliably detected.
 - Failed media downloads are skipped; memes are never replaced by a text-only post. Promo/casino captions and Reddit NSFW/spoiler posts are filtered. These are metadata filters, not visual moderation.
 - Source intake and queued items default to 48 hours, separately configurable. Expired/sent queue media references are removed. Media files are temporary and never committed into history.
-- Before public posting, the reservation and media hash are saved to this repository's own `autopost-state` branch. Unknown outcomes pause posting rather than automatically repeating. A stale writer cannot overwrite newer history. Small URL/hash/publication records remain for deduplication.
+- Before public posting, the reservation and media hash are saved to this repository's own `autopost-state` branch. An unconfirmed post briefly pauses posting; after two minutes that one meme is set aside permanently (never retried or reposted) and posting continues with other memes. A stale writer cannot overwrite newer history. Small URL/hash/publication records remain for deduplication.
 
 ## Set up the new account
 
