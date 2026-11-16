@@ -15,8 +15,8 @@ def config():
     for name in value['telegram']+value['reddit']:
         if not isinstance(name,str) or not re.fullmatch(r'[A-Za-z0-9_]{2,40}',name):
             raise ValueError('Invalid channel or subreddit')
-    if value['posting_seconds']!=1200 or value['collection_seconds']<1200:
-        raise ValueError('Use a 20-minute posting interval and a valid collection interval')
+    if value['posting_seconds']<600 or value['collection_seconds']<600:
+        raise ValueError('Use posting and collection intervals of at least 10 minutes')
     return value
 
 def caption(text):
@@ -55,9 +55,16 @@ def telegram(channel):
         url=video_source.get('src') if video_source else (match[1] if match and not video else None)
         if not media.media_allowed(url):continue
         views=message.select_one('.tgme_widget_message_views')
+        # Reactions are the clearest "people loved this" signal in the public preview.
+        reactions=sum(number(re.sub(r'[^\d.,KMB]','',r.get_text())) for r in message.select('.tgme_widget_message_reactions .tgme_reaction'))
+        # A still frame lets the AI judge videos too (never posted in place of the video).
+        thumb=message.select_one('.tgme_widget_message_video_thumb')
+        thumb_match=re.search(r'''background-image:\s*url\(['"]?(.*?)['"]?\)''',thumb.get('style','')) if thumb else None
+        preview=html.unescape(thumb_match[1]) if video and thumb_match else (html.unescape(url) if not video else None)
         rows.append(dict(url='https://t.me/'+message['data-post'],source='telegram:'+channel,
                          published=date.timestamp(),caption=caption(text),kind='video' if video else 'image',
-                         media_url=html.unescape(url),dash_url=None,engagement=number(views.get_text()) if views else 0))
+                         media_url=html.unescape(url),dash_url=None,engagement=number(views.get_text()) if views else 0,
+                         reactions=reactions,preview_url=preview if media.media_allowed(preview) else None))
     return rows
 
 def reddit(subreddit):
@@ -70,11 +77,17 @@ def reddit(subreddit):
         video=(post.get('media') or {}).get('reddit_video')
         url=video.get('fallback_url') if video else post.get('url_overridden_by_dest')
         if not media.media_allowed(url):continue
+        preview=None
+        images=(post.get('preview') or {}).get('images') or []
+        if images:
+            preview=html.unescape(images[0].get('source',{}).get('url',''))
         rows.append(dict(url='https://www.reddit.com'+post['permalink'],source='reddit:'+subreddit,
                          published=post['created_utc'],caption=caption(post.get('title','')),
                          kind='video' if video else 'image',media_url=html.unescape(url),
                          dash_url=video.get('dash_url') if video and not video.get('is_gif') else None,
-                         engagement=post.get('score',0)+2*post.get('num_comments',0)))
+                         engagement=post.get('score',0)+2*post.get('num_comments',0),
+                         reactions=post.get('num_comments',0),
+                         preview_url=preview if media.media_allowed(preview) else (None if video else html.unescape(url))))
     return rows
 
 def collect(cfg):
